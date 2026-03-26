@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 // 動画から切り出した実際の体験写真
 const TEA_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663428387136/YigJYeeXazuHMpDuQtzPYi/tea_ceremony_real_c3c2bb58.jpg";
 const KIMONO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663428387136/YigJYeeXazuHMpDuQtzPYi/shrine_kimono_2bc3e8e0.jpg";
-const PARK_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663428387136/YigJYeeXazuHMpDuQtzPYi/garden_landscape_f08bfc07.jpg";
+const PARK_IMG = "/nanko_sakura.webp";
 
 function useInView(threshold = 0.2) {
   const ref = useRef<HTMLDivElement>(null);
@@ -33,7 +33,7 @@ const highlights = [
   },
   {
     title: "呈茶で心を整える",
-    desc: "翠楽園 秋水庵にて、静寂の中でお抹茶と和菓子をいただく呈茶体験。茶道の心に触れるひとときを。",
+    desc: "翠楽苑 秋水庵にて、静寂の中でお抹茶と和菓子をいただく呈茶体験。茶道の心に触れるひとときを。",
     img: TEA_IMG,
   },
   {
