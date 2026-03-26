@@ -36,6 +36,9 @@ jobs:
       - name: Build
         run: pnpm vite build
 
+      - name: Copy CNAME
+        run: cp client/public/CNAME dist/public/CNAME
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
