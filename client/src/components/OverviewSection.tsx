@@ -33,7 +33,7 @@ const priceItems = [
   { item: "陶芸体験・呈茶体験料", price: "5,000円" },
   { item: "ラーメン", price: "約1,000円" },
   { item: "お鮨（小判寿司）", price: "約30,000円" },
-  { item: "現地移動費", price: "約5,000円", note: "自家用車の方は不要" },
+  { item: "ガイド兼現地送迎費", price: "実費（約5,000円ほど）" },
 ];
 
 const PETALS_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663428387136/YigJYeeXazuHMpDuQtzPYi/sakura_petals_overlay-93KzoSeR7HcprVU46BnEf6.webp";
